@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    width: 100vw;
+}
+
+
+
+header {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.menu-topo {
+    background-color: #CF2B2B;
+    width: 100vw;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items:flex-start;
+}
+
+.menu-topo h1 {
+    font-family: "Righteous";
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 54.63px;
+    letter-spacing: -1.2%;
+    color: #FFFFFF;
+    margin-left: 21px;
+}
+
+.menu-topo p {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.09px;
+    color: #FFFFFF;
+    margin-left: 21px;
+}
+
+.conteudo {
+    padding-bottom: 90px;
+}
+
+.categoria {
+    margin-top: 120px;
+}
+
+.titulo h1 {
+    color: #333333;
+    font-family: "Righteous";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 32px;
+    margin-left: 19px;
+    margin-top: 10px;
+}
+
+.prato, .bebida, .sobremesa {
+    min-height: 216px;
+    min-width: 172px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    margin-right: 16px;
+    margin-top: 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+}
+
+
+.margem {
+    margin-left: 16px;
+}
+
+.prato img, .bebida img, .sobremesa img {
+    height: 87px;
+    width: 144px;
+    border-radius: 4px;
+
+}
+
+.xis {
+
+    width: 120px !important;
+    height: 120px !important;
+}
+
+.prato h1, .bebida h1, .sobremesa h1 {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+
+.prato p, .bebida p, .sobremesa p {
+    font-family: "Roboto";
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #A6A6A6;
+}
+
+.prato h2, .bebida h2, .sobremesa h2 {
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 4px;
+}
+
+.valor {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+}
+
+.bebidas, .pratos, .sobremesas {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    
+}
+
+
+.selecionado{
+    border: 5px solid #32B72F;
+}
+
+.selecionado ion-icon{
+    display:initial;
+}
+
+footer{
+    width: 100vw;
+    height: 92px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right:0;
+}
+
+.botao{
+    
+    background-color: #CBCBCB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    border: 0px;
+    border-radius: 50px;
+    width: 364px;
+    height: 61px;
+    
+    
+}
+
+.finalizado{
+    background-color: #32B72F;
+    font-weight: 700;
+    cursor:pointer;
+    
+}
+
+ion-icon {
+    font-size: 20px;
+    color: #32B72F;
+    display: none;
+
+
+}
+
+
+.finalizado{
+    background-color: #32B72F;
+    font-weight: 700;
+    cursor:pointer;
+    
+}
+
+::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+  }
