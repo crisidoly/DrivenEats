@@ -102,5 +102,5 @@ function enviarNoZap(){
     
     const valorTotal = valorPrato + valorBebida + valorSobremesa;
     const pedidoCompleto = `Olá, gostaria de fazer o pedido:\n- Prato: ${pratoPedido}\n- Bebida: ${bebidaPedida}\n- Sobremesa: ${sobremesaPedida}\nTotal: R$ ${valorTotal.toFixed(2)}`;
-    window.open(`https://wa.me/5535999999999?text=${encodeURIComponent(pedidoCompleto)}`);
+    window.open(`https://wa.me/5541999971409?text=${encodeURIComponent(pedidoCompleto)}`);
 }
